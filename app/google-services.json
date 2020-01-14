@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "28366623838",
+    "firebase_url": "https://cryptowallet-e7917.firebaseio.com",
+    "project_id": "cryptowallet-e7917",
+    "storage_bucket": "cryptowallet-e7917.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28366623838:android:6c8bdcd1530e94a71590cf",
+        "android_client_info": {
+          "package_name": "com.example.cryptowallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28366623838-ebq4f2e093q1njslll7obm453t5t1pt8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cryptowallet",
+            "certificate_hash": "79e9d5439bc60f8f0b9e97cb482cedcba1df4fe5"
+          }
+        },
+        {
+          "client_id": "28366623838-qsq8qj0aij9v1mmnjl0rionpdns7qdum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzMkztYiuk4JRNFxBxeM83xEzRzvVQw8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28366623838-qsq8qj0aij9v1mmnjl0rionpdns7qdum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

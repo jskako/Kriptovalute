@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="swipe_left_for_register">"Nach links wischen zu registrieren und Informationen "</string>
+    <string name="CryptoExplorer">Krypto-Geldbörse</string>
+    <string name="e_mail">Email</string>
+    <string name="forgetPassword">Passwort vergessen</string>
+    <string name="forgotpassword">Passwort vergessen</string>
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+    <string name="informations">Informationen</string>
+    <string name="login">Einloggen</string>
+    <string name="password">Passwort</string>
+    <string name="re_type_password">Passwort erneut eingeben</string>
+    <string name="recover">Genesen</string>
+    <string name="register">ANMELDUNG</string>
+    <string name="resendMail">Mail erneut senden</string>
+    <string name="swipe_right_for_login">Streichen Sie nach rechts, um sich anzumelden</string>
+    <string name="swipe_right_for_registration">Wischen Sie zur Registrierung nach rechts</string>
+    <string name="tag">ANMELDUNG</string>
+    <string name="your_name">Anzeigename</string>
+    <string name="englishGerman">Deutsch</string>
+</resources>
