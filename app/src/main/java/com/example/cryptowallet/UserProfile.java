@@ -7,6 +7,7 @@ import androidx.core.content.ContextCompat;
 import android.Manifest;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 import java.net.Authenticator;
 import java.net.PasswordAuthentication;
@@ -77,17 +78,19 @@ public class UserProfile extends AppCompatActivity {
         }
         JSONObject responseJsonObj = null;
         try {
-            httpclient.getCredentialsProvider().setCredentials(new AuthScope("http://blockchain.oss.unist.hr/", 8332),
+            httpclient.getCredentialsProvider().setCredentials(new AuthScope("http://blockchain.oss.unist.hr", 8332),
                     new UsernamePasswordCredentials("student", "WYVyF5DTERJASAiIiYGg4UkRH"));
             StringEntity myEntity = new StringEntity(json.toJSONString());
             System.out.println(json.toString());
-            HttpPost httppost = new HttpPost("http://blockchain.oss.unist.hr/:8332");
+            HttpPost httppost = new HttpPost("http://blockchain.oss.unist.hr:8332");
             httppost.setEntity(myEntity);
-
             System.out.println("executing request" + httppost.getRequestLine());
+            //Problem ispod
+            //_____________________________________________________
             HttpResponse response = httpclient.execute(httppost);
+            //_____________________________________________________
+            Log.d("Test: ","2");
             HttpEntity entity = response.getEntity();
-
             System.out.println("----------------------------------------");
             System.out.println(response.getStatusLine());
             if (entity != null) {
